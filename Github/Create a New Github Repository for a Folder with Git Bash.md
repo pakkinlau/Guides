@@ -6,41 +6,54 @@
     
 4.  **Navigate to the New Folder**: Navigate to the new folder by typing the following command into Git Bash:
     
-    bashCopy code
-    
 ```bash
 cd /path/to/folder
 ```
+Replace "/path/to/folder" with the path to your new folder.
 
 
-    Replace "/path/to/folder" with the path to your new folder.
-    
 5.  **Initialize Git**: Initialize Git in your new folder by typing the following command into Git Bash:
 
-    `git init`
-    
+```bash
+git init
+```
+
+Create main branch for the first time we use the repository: 
+```bash
+git branch main
+```
+
+Move to main branch:
+```bash
+git checkout main
+```
+
+
 6.  **Create a New Repository on Github**: Go to Github.com and log in to your account. Click on the "+" sign in the top right corner and select "New repository." Give your repository a name and description, and make sure it is set to public or private as desired. Then click "Create repository."
     
 7.  **Copy the Repository URL**: Once the repository is created, copy the repository URL provided.
     
 8.  **Connect Local Repository to Github Repository**: In Git Bash, type the following command to connect your local repository to the Github repository:
-    
-    csharpCopy code
-    
-    `git remote add origin <repository URL>`
-    
-    Replace `"<repository URL>"` with the URL you copied in step 7.
+```bash
+git remote add origin <repository URL>
+```
+Replace `"<repository URL>"` with the URL you copied in step 7.
+
+
     
 9.  **Add Files to Local Repository**: Add the files you want to upload to your repository to your local repository. You can do this by dragging and dropping the files into the new folder or by using Git Bash commands to create and edit files.
     
 10.  **Commit Changes**: Once your files are added, commit the changes to your local repository by typing the following command into Git Bash:
-
-    `git commit -m "First commit"`
-    
+```bash
+git commit -m "First commit"
+```
 Replace "First commit" with a brief description of the changes you made.
-    
-11.  **Push Changes to Github**: Finally, push the changes to your Github repository by typing the following command into Git Bash:
-    
-    `git push -u origin master`
-    
+
+
+
+13.  **Push Changes to Github**: Finally, push the changes to your Github repository by typing the following command into Git Bash:
+```bash
+git push -u origin main
+```
+
 This will upload your local files to your Github repository.
