@@ -13,14 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Github/Create a New Github Repository for a Folder with Git Bash.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ea6e3c9664f72046",
+            "id": "ee7076843970a649",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Github/Create a New Github Repository for a Folder with Git Bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Github/Create a New Github Repository for a Folder with Git Bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Github/Create a New Github Repository for a Folder with Git Bash.md"
               }
             }
           }
@@ -159,10 +158,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea6e3c9664f72046",
+  "active": "18440cf8f550d479",
   "lastOpenFiles": [
-    "Obsidian/Getting started - obsidian.md",
+    "Image/obsidian.png",
+    "Image/GitHub-Logo.png",
     "README.md",
+    "Obsidian/Getting started - obsidian.md",
+    "Github/Create a New Github Repository for a Folder with Git Bash.md",
+    "Github",
+    "link.md",
+    "Image/default_38a315c27903a7e11d83084960ad5dee008c8549.png",
+    "Image",
+    "New folder",
     "Obsidian"
   ]
 }
