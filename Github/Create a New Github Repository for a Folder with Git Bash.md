@@ -18,22 +18,17 @@ Replace "/path/to/folder" with the path to your new folder.
 git init
 ```
 
-Create main branch for the first time we use the repository: 
+Create main branch without commits, for the first time we use the repository: 
 ```bash
-git branch main
+git checkout -b main
 ```
-
-Move to main branch:
-```bash
-git checkout main
-```
-
 
 6.  **Create a New Repository on Github**: Go to Github.com and log in to your account. Click on the "+" sign in the top right corner and select "New repository." Give your repository a name and description, and make sure it is set to public or private as desired. Then click "Create repository."
     
 7.  **Copy the Repository URL**: Once the repository is created, copy the repository URL provided.
     
 8.  **Connect Local Repository to Github Repository**: In Git Bash, type the following command to connect your local repository to the Github repository:
+
 ```bash
 git remote add origin <repository URL>
 ```
@@ -42,8 +37,27 @@ Replace `"<repository URL>"` with the URL you copied in step 7.
 
     
 9.  **Add Files to Local Repository**: Add the files you want to upload to your repository to your local repository. You can do this by dragging and dropping the files into the new folder or by using Git Bash commands to create and edit files.
-    
-10.  **Commit Changes**: Once your files are added, commit the changes to your local repository by typing the following command into Git Bash:
+
+Increase the file size limit from 100MB to 2GBs. 
+```bash
+git config --global core.autocrlf false
+git config --global http.postBuffer 2147483648
+git lfs install
+git lfs track '*.zip' + ' *.tar.gz' + ' *.tar' + ' *.mp4' + ' *.pdf'
+```
+
+
+```bash
+git add -all
+```
+
+1.  **Commit Changes**: Once your files are added, commit the changes to your local repository by typing the following command into Git Bash:
+
+To avoid showing errors: 
+```bash
+git config --global core.autocrlf false
+```
+
 ```bash
 git commit -m "First commit"
 ```
